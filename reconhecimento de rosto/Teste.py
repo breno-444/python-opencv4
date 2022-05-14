@@ -10,7 +10,7 @@ desenho = mp.solutions.drawing_utils  # ativando a solução de desenho
 reconhecedor_rosto = reconhecimento_rosto.FaceDetection()
 
 while webcam.isOpened():
-    validacao, frame = webcam.read()  # lê a imagem da webcam
+    validacao, frame = webcam.read()  # lê a imagem da webcam                                                                                                                                                                                                                                                                                                                                  
     if not validacao:
         break
     imagem = frame
@@ -27,3 +27,4 @@ while webcam.isOpened():
         break
 webcam.release()  # encerra a conexão com a webcam
 cv2.destroyAllWindows()  # fecha a janela que mostra o que a webcam está vendo
+
