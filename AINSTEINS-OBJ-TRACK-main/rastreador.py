@@ -44,5 +44,4 @@ while cap.isOpened():
     if cv2.waitKey(5) == 27:  # ESC # garante que o código vai ser pausado ao apertar ESC (código 27) e que o código vai esperar 5 milisegundos a cada leitura da webcam
         break
 
-    if cv2.waitKey(1) & 0XFF == 27:
-        break
+    
